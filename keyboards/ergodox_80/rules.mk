@@ -6,4 +6,5 @@ RGBLIGHT_ENABLE = no
 BACKLIGHT_ENABLE = no
 
 #keyboard setup
+BOOTLOADER = caterina
 SPLIT_KEYBOARD = yes
