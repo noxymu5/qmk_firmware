@@ -3,18 +3,10 @@
 
 #pragma once
 
-/*
- * Feature disable options
- *  These options are also useful to firmware size reduction.
- */
+//disable features
+#define NO_MUSIC_MODE
 
-/* disable debug print */
-//#define NO_DEBUG
+//keyboard setup
 
-/* disable print */
-//#define NO_PRINT
-
-/* disable action features */
-//#define NO_ACTION_LAYER
-//#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
+#define MASTER_RIGHT
+#define USE_I2C
